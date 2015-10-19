@@ -1,8 +1,8 @@
 header {	
 	background: #F3FFE2;
 /*	border-bottom: 2px solid #225378; */
-	top: 0;
-	padding: 5 10 5 10;
+	top: 0px;
+	padding: 5px 10px 5px 10px;
 	position: fixed;
 	width: 100%;
 }
@@ -37,17 +37,17 @@ header {
 }
 
 #downarrow_text {
-	margin: 30 0 10 0;
+	margin: 30px 0px 10px 0px;
 }
 
 #downarrow_image {
-	margin: 0 0 30 0;
+	margin: 0px 0px 30px 0px;
 }
 
 nav {
     text-transform: uppercase;
-	padding: 0;
-	margin: 27 10 0 0;
+	padding: 0px;
+	margin: 27px 10px 0px 0px;
 	float: right;
 }
 
@@ -62,17 +62,17 @@ nav a:hover {
 
 nav ul {
 	list-style: none;
-	margin: 0;
+	margin: 0px;
 }
 
 nav ul li {
 	display: inline;
-	padding: 10 10 10 10
+	padding: 10px 10px 10px 10px
 }
 
 .quote_cta {
 	text-align: center;
-	padding: 20;
+	padding: 20px;
 	border-radius: 15px;
 	background: #EB7F00;
 	color: #225378;
@@ -103,7 +103,7 @@ nav ul li {
 
 body {
 	background: #F3FFE2;
-	margin: 0 ;
+	margin: 0px;
 	font-family: 'Arimo';
 	font-style: normal;
 	font-weight: 400;
