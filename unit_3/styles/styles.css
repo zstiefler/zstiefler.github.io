@@ -1,0 +1,135 @@
+header {	
+	background: #F3FFE2;
+/*	border-bottom: 2px solid #225378; */
+	top: 0;
+	padding: 5 10 5 10;
+	position: fixed;
+	width: 100%;
+}
+
+#spacer_hero {
+	height:190px;
+}
+
+.hero_h1 {
+	padding-bottom: 20px;
+}
+
+.div_center {
+	text-align: center;
+}
+
+.hero_h2 {
+	width: 60%;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+#hero_h2_extraspace {
+	width: 60%;
+	margin: auto;
+	padding-bottom: 70px;
+}
+
+#quote_cta_div {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#downarrow_text {
+	margin: 30 0 10 0;
+}
+
+#downarrow_image {
+	margin: 0 0 30 0;
+}
+
+nav {
+    text-transform: uppercase;
+	padding: 0;
+	margin: 27 10 0 0;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: #225378;
+}
+
+nav a:hover {
+	color: #EB7F00;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	padding: 10 10 10 10
+}
+
+.quote_cta {
+	text-align: center;
+	padding: 20;
+	border-radius: 15px;
+	background: #EB7F00;
+	color: #225378;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.quote_cta:hover {
+	background: #225378;
+	color: #EB7F00;
+}
+
+.spacer {
+	height:30px;
+}
+
+.quote_button {
+	padding: 10px 15px;
+	border-radius: 3px;
+	background: #EB7F00;
+	color: #225378;
+}
+
+.quote_button:hover {
+	background: #225378;
+	color: #EB7F00;
+}
+
+body {
+	background: #F3FFE2;
+	margin: 0 ;
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 400;
+	color: #225378;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 400;
+	color: EB7F00;*/
+}
+
+h2 {
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: #225378;
+}
+
+h3 {
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+}
