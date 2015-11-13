@@ -1,0 +1,270 @@
+html {
+    font-family: 'Quattrocento';
+    font-weight: 300;
+    color: #225378;
+}
+
+header {
+    top: 0px;
+    padding: 5px 10px 5px 10px;
+    position: fixed;
+    width: 100%;
+    background: #225378;
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    display: block;    
+    border-bottom: solid 1px #D1D2D4;
+}
+
+body {
+    margin: auto;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #EB7F00;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+nav {
+    font-weight: 400;
+    padding: 0px;
+    margin: 22px 20px 20px 0px;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #EB7F00;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 10px 10px 10px
+}
+
+footer {
+    width: 100%;
+    background: #225378;
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    padding: 20px 0px 30px 0px;
+    border-top: solid 1px #D1D2D4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.8em;
+}
+
+footer a:hover {
+    color: #EB7F00;
+}
+/*
+footer ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}*/
+
+.trial_button {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    background-color: #225378;
+    color: #FFFFFF;
+}
+
+.trial_button:hover {
+    background: #EB7F00;
+    border-color: #EB7F00;
+    color: #225378;
+}
+
+.logo_header {
+    padding: 13px 0px 0px 20px;
+    width: 150px;
+    float: left;
+}
+
+.logo_footer {
+    padding: 25px 0px 25px 0px;
+    width: 150px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.bottom_border_div {
+    border-bottom: solid 1px #D1D2D4;
+}
+
+.hero_div {
+    width: 90%;
+    margin: auto;
+}
+
+#spacer_hero {
+    height: 150px;
+}
+
+.hero_h1,
+.hero_h2 {
+    margin: auto;
+}
+
+.hero_h1 {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.hero_h2 {
+    padding-bottom: 75px;
+    width: 90%;
+}
+
+.platform_h3 {
+    padding-top: 0px;
+}
+
+.background_gray {
+    background-color: #D1D2D4;
+}
+
+.background_ltblue {
+    background-color: #ACF0F2;
+}
+
+.background_medblue {
+    background-color: #1695A3;
+}
+
+/*
+#downarrow_text {
+    margin: 30px 0px 10px 0px;
+}
+
+#downarrow_image {
+    margin: 0px 0px 30px 0px;
+}*/
+
+#mirador_dashboard {
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+.spacer {
+    height: 30px;
+}
+
+.pricing_heading {
+    width: 75%;
+    margin: auto;
+}
+
+.pricing1 {
+    width: ;
+}
+
+#trial_cta_div {
+    padding-bottom: 75px;
+}
+
+.trial_cta {
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    padding: 10px 60px;
+    text-decoration: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    background-color: #225378;
+}
+
+.trial_cta:hover {
+    background-color: #EB7F00;
+}
+
+a[href^="mailto"] {
+    color: inherit;
+}
+
+a[href^="mailto"]:hover {
+    color: #EB7F00;
+}
+
+
+/*TEXT ROTATE SCRIPT*/
+
+@keyframes blink {
+    0% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+.section-typer:after {
+    content: "";
+    display: inline-block;
+    height: 63px;
+    position: relative;
+    top: 10px;
+    margin-left: 1px;
+    margin-right: 0px;
+    width: 2px;
+    background: #EB7F00;
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+    -moz-animation: blink 1s step-start 0s infinite;
+}
+
+/*END TEXT ROTATE SCRIPT*/
